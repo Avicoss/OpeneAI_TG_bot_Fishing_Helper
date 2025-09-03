@@ -76,7 +76,7 @@ async def quiz_game(update: Update, context: ContextTypes):
             reply_markup=reply_markup,
             parse_mode='Markdown'
         )
-
+#
 
 async def handle_text_messages(update: Update, context: ContextTypes):
     user_mode = context.user_data.get('mode', '')
